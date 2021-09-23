@@ -1,0 +1,63 @@
+
+@media screen and (max-width: $desktopWidth) {
+  .main__project__box {
+    height: 210px;
+    padding-left: 3%;
+  }
+  .main__project__box {
+    padding-left: 22%;
+  }
+}
+@media screen and (max-width: $tableWidth) {
+  header .navbar{
+    display: block;
+  }
+  header .navbar-brand{
+    display: flex;
+    justify-content: center;
+  }
+  header .navbar-collapse{
+    margin-top: 20px;
+    justify-content: center!important;
+  }
+
+}
+
+
+@media screen and (max-width: $smTableWidth) {
+  header {
+    background: url("../img/background_header.png") no-repeat;
+  }
+  .main__project__box {
+    padding-left: 0;
+  }
+}
+
+@media screen and (max-width: $phoneWidth ) {
+  .main__project__el{
+    background-size: 60%;
+    height: 64px;
+    padding-left: 60px;
+  }
+  .main__project__el-active{
+    height: 64px;
+    padding-left: 60px;
+  }
+  .project__el__number{
+    line-height: inherit;
+  }
+  .main__project__box {
+    height: 130px;
+    padding-left: 6%;
+  }
+}
+
+@media screen and (max-width: $smPhoneWidth ) {
+  .main__project__el{
+    padding-left: 60px;
+  }
+  .main__project__el-active{
+    padding-left: 60px;
+  }
+
+}
